@@ -13,10 +13,11 @@ Feito com Sequelize ORM, MySQL, e Express.
 # Como inicializar
 Crie uma base de dados MYSQL com o nome "store"
 Na pasta db, acesse o arquivo db.js e configure o seu usuario e senha do MYSQL na const Sequelize (padrão : root, '')
-No terminal, selecione o diretório do projeto e execute o comando: npm run devStart
+No terminal, selecione o diretório do projeto e excute o comando npm i
+Em seguida, execute o comando: npm run devStart
 Abra o seu navegador e acesse http://localhost:3000/
 
-Obs : o repositório já conta com as dependencias instaladas
+
 
 # Rotas
 
