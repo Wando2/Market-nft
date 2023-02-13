@@ -1,0 +1,457 @@
+
+<head>
+  <title>NAFT - NFT Markeplace</title>
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  
+
+
+  <main>
+
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Explore artes digitais e venda seu <span>NFT</span></h1>
+
+            <p class="hero-text">
+              Faça parceria com um dos maiores varejistas do mundo para mostrar sua marca e seus produtos.
+            </p>
+
+            <div class="btn-group">
+              <button class="btn btn-primary">Sobre nos</button>
+              
+              <a href="/create" class="btn btn-secondary">Publique agora</a>
+
+          
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.jpg" alt="nft art">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+    
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about">
+        <div class="container">
+
+          <h2 class="h2 about-title">Crie e venda seus NFTS</h2>
+
+          <ol class="about-list">
+
+            <li class="about-item">
+              <div class="about-card">
+
+                <div class="card-number">01</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/single-create-sell-item-1.png" alt="wallet icon">
+                </div>
+
+                <h3 class="h3 about-card-title">Configure sua carteira</h3>
+
+                <p class="about-card-text">
+                 A venda de NFTs, ou tokens não-fungíveis, vem ganhando cada vez mais espaço no mercado de arte e colecionáveis digitais
+                </p>
+
+              </div>
+            </li>
+
+            <li class="about-item">
+              <div class="about-card">
+
+                <div class="card-number">02</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/single-create-sell-item-2.png" alt="collection icon">
+                </div>
+
+                <h3 class="h3 about-card-title">Crie sua coleção</h3>
+
+                <p class="about-card-text">
+                 A venda de NFTs, ou tokens não-fungíveis, vem ganhando cada vez mais espaço no mercado de arte e colecionáveis digitais
+                </p>
+
+              </div>
+            </li>
+
+            <li class="about-item">
+              <div class="about-card">
+
+                <div class="card-number">03</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/single-create-sell-item-3.png" alt="folder icon">
+                </div>
+
+                <h3 class="h3 about-card-title">Adicione seu NFT</h3>
+
+                <p class="about-card-text">
+                 A venda de NFTs, ou tokens não-fungíveis, vem ganhando cada vez mais espaço no mercado de arte e colecionáveis digitais
+                </p>
+
+              </div>
+            </li>
+
+            <li class="about-item">
+              <div class="about-card">
+
+                <div class="card-number">04</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/single-create-sell-item-4.png" alt="diamond icon">
+                </div>
+
+                <h3 class="h3 about-card-title">Venda seus NFTS</h3>
+
+                <p class="about-card-text">
+                  A venda de NFTs, ou tokens não-fungíveis, vem ganhando cada vez mais espaço no mercado de arte e colecionáveis digitais
+                </p>
+
+              </div>
+            </li>
+
+          </ol>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #EXPLORE PRODUCT
+      -->
+
+      <section class="explore-product">
+        <div class="container">
+
+          <div class="section-header-wrapper">
+
+            <h2 class="h2 section-title">Explorar Produtos</h2>
+
+            <button class="btn btn-primary">Explore</button>
+
+          </div>
+
+          <ul class="product-list">
+
+            {{#each nfts}}
+
+            <li class="product-item">
+
+              <div class="product-card" tabindex="0">
+
+                <figure class="product-banner">
+
+                  <img src="{{this.url}}" alt="Dimond riding a blue body art">
+
+                  <div class="product-actions">
+                    <button class="product-card-menu">
+                      <ion-icon name="ellipsis-horizontal"></ion-icon>
+                    </button>
+
+                    <button class="add-to-whishlist" data-whishlist-btn>
+                      <ion-icon name="heart"></ion-icon>
+                    </button>
+                  </div>
+
+                  <button class="place-bid-btn">Dar Oferta</button>
+
+                </figure>
+
+                <div class="product-content">
+
+                  <a href="#" class="h4 product-title">{{this.title}}</a>
+
+                  <div class="product-meta">
+
+                    <div class="product-author">
+
+                      <figure class="author-img">
+                        <img src="./assets/images/bidding-user.png" alt="Jack Reacher">
+                      </figure>
+
+                      <div class="author-content">
+                        <h4 class="h5 author-title">{{this.userName}}</h4>
+
+                       
+                      </div>
+
+                    </div>
+
+                    
+
+                    <div class="product-price">
+                      <data value="{{this.price}}">{{this.price}} Ether</data>
+
+                      <p class="label">Valor Atual</p>
+                    </div>
+
+                  </div>
+
+                  <div class="product-footer">
+                  
+
+                    <button class="tag">New</button>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </li>
+
+               {{/each}}
+           
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+    
+
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="NAFT logo">
+          </a>
+
+          <p class="footer-brand-text">
+            There are many variations of passages of but the majority have suffered alterations cted humour, or
+            randomsed words
+            which htly believable. If you are going
+          </p>
+
+          <h3 class="h4 social-title">Join the community</h3>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://github.com" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.youtube.com/" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          <ul class="footer-list">
+
+            <li>
+              <h3 class="h3 footer-item-title">Marketplace</h3>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Gaming</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Product</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">All NFTs</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Social Network</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Domain Names</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Collectibles</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <h3 class="h3 footer-item-title">Explore</h3>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Featured Drops</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Live Auctions</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">All NFTs</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Collections</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Top Seller</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Items Details</a>
+            </li>
+
+          </ul>
+
+          <ul class="footer-list">
+
+            <li>
+              <h3 class="h3 footer-item-title">Supports</h3>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Settings & Privacy</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Help & Support</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Live Auctions</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Item Details</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">24/7 Supports</a>
+            </li>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Blog</a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        
+
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+
+          <a href="#">Terms & Conditions</a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!--
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
