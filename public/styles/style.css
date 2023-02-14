@@ -1375,3 +1375,8 @@ text-light {
   color: white;
 }
 
+
+.error_form{
+  color: var(--red-crayola);
+}
+
