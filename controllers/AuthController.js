@@ -14,7 +14,7 @@ class AuthController {
         const user = await User.findOne({where: {email: email}})
 
         if (!user) {
-            req.flash('message', 'O usuário não foi encontrado. Verifique')
+            req.flash('message', 'O usuário não foi encontrado.')
             res.render('auth/login')
             return
         }
@@ -50,7 +50,7 @@ class AuthController {
         const {name, email, password, confirmpassword} = req.body
          //validadao de senha
         if(password != confirmpassword){
-            req.flash('message ','As senhas não conferem')
+            req.flash('message','As senhas não conferem')
             res.render('auth/register')
 
             return
