@@ -15,7 +15,7 @@ class AuthController {
 
         if (!user) {
             req.flash('message', 'O usuário não foi encontrado.')
-            res.render('auth/login')
+            res.render('auth/login',{email: req.body.email})
             return
         }
 
@@ -25,7 +25,7 @@ class AuthController {
 
         if(!passwordMatch) {
             req.flash('message', 'Senha incorreta, verifique os campos')
-            res.render('auth/login')
+            res.render('auth/login',{email: req.body.email})
 
             return
 
@@ -51,7 +51,7 @@ class AuthController {
          //validadao de senha
         if(password != confirmpassword){
             req.flash('message','As senhas não conferem')
-            res.render('auth/register')
+            res.render('auth/register',{name: req.body.name, email: req.body.email})
 
             return
         }
@@ -61,7 +61,7 @@ class AuthController {
 
         if (checkIfUserExists) {
             req.flash('message','Este usuário já foi cadastrado')
-            res.render('auth/register')
+            res.render('auth/register', {name: req.body.name, email: req.body.email})
             return
         }
 

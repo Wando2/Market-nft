@@ -5,9 +5,9 @@
       <h4 class="login__title error_form">{{messages.message}}</h4>
       {{/if}}
       <form class="login__form" action="/register" method="post">
-      <input class="login__input" type="text" placeholder="Usuario" name="name" value=""/>
+      <input class="login__input" type="text" placeholder="Usuario" name="name" value="{{name}}"/>
         <span class="login__input-border"></span>
-        <input class="login__input" type="email" placeholder="E-mail" name="email" value=""/>
+        <input class="login__input" type="email" placeholder="E-mail" name="email" value="{{email}}"/>
         <span class="login__input-border"></span>
         <input class="login__input" type="password" placeholder="Senha" name="password" value=""/>
         <span class="login__input-border"></span>
