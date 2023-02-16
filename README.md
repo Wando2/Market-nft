@@ -16,6 +16,7 @@ Na pasta db, acesse o arquivo db.js e configure o seu usuario e senha do MYSQL n
 No terminal, selecione o diretório do projeto e excute o comando npm i
 Em seguida, execute o comando: npm run devStart
 Abra o seu navegador e acesse http://localhost:3000/
+Necessário: Mysql, VS code (ou demais IDE) e Node.js
 
 
 
