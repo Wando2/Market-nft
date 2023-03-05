@@ -39,6 +39,7 @@ Obs : Para navegar na rota create e edit, é necessário estar autenticado com u
  # Screenshots
  <img src="https://github.com/Wando2/Market-nft/blob/e6f03c8dda8976c0807112de9352ed8921cb06f1/readme/home1.png"/>
  <img src="https://github.com/Wando2/Market-nft/blob/e6f03c8dda8976c0807112de9352ed8921cb06f1/readme/home2.png" />
+ <img src="https://github.com/Wando2/Market-nft/blob/597482922e6541fafffc069acadc8c96e64a0f92/readme/dashboard.png" />
  <img src="https://github.com/Wando2/Market-nft/blob/e6f03c8dda8976c0807112de9352ed8921cb06f1/readme/publicar.png" />
  <img src="https://github.com/Wando2/Market-nft/blob/main/readme/Arquitetura.png" />
  
