@@ -1,42 +1,50 @@
 
  
- 
-# Sobre o Projeto
+# NFT Market
 
-NFT Market consite num site de comércio de artes digitais de tokens fungiveis, onde os os visitantes podem criar um usuário e comercializar seus NFTS
-Feito com Sequelize ORM, MySQL, e Express.
+O NFT Market é um site de comércio de artes digitais em formato de tokens fungíveis, onde os visitantes podem criar uma conta de usuário e comercializar seus NFTs. Este projeto foi desenvolvido utilizando o Sequelize ORM, MySQL e Express.
 
-# Dependencias
-<img src="https://github.com/Wando2/nft-market/blob/0c5609c283776d7d7afb2bb15f4059a4ab986ec1/readme/dependencias.png" />
+## Dependências
 
-# Como inicializar
-Crie uma base de dados MYSQL com o nome "store"
-Na pasta db, acesse o arquivo db.js e configure o seu usuario e senha do MYSQL na const Sequelize (padrão : root, '')
-No terminal, selecione o diretório do projeto e excute o comando npm i
-Em seguida, execute o comando: npm run devStart
-Abra o seu navegador e acesse http://localhost:3000/
-Necessário: Mysql, VS code (ou demais IDE) e Node.js
+As dependências necessárias para executar este projeto estão listadas abaixo:
 
+- Node.js
+- MySQL
+- VS Code (ou outra IDE)
+- Pacotes npm: express, express-session, bcrypt, ejs, sequelize e mysql2
 
+## Como inicializar
 
-# Rotas
+Siga os passos abaixo para inicializar o projeto:
 
-http://localhost:3000/   (home)
-http://localhost:3000/login  (inicio da sessão)
-http://localhost:3000/register (Registro Usuario)
-http://localhost:3000/create (criação de NFT)
-http://localhost:3000/edit (editar NFT)
-http://localhost:3000/view (ver unico nft)
-http://localhost:3000/logout (desconectar da sessão)
+1. Crie uma base de dados MySQL com o nome "store".
+2. No arquivo `db/db.js`, configure o seu usuário e senha do MySQL na constante Sequelize (padrão: root, '').
+3. No terminal, selecione o diretório do projeto e execute o comando `npm i` para instalar as dependências do projeto.
+4. Em seguida, execute o comando `npm run devStart` para iniciar o servidor.
+5. Abra o seu navegador e acesse http://localhost:3000/.
 
-Obs : Para navegar na rota create e edit, é necessário estar autenticado com um usuario.
+## Rotas
 
+As rotas do projeto estão listadas abaixo:
 
-# Relacionamentos
+- http://localhost:3000/ (home)
+- http://localhost:3000/login (início de sessão)
+- http://localhost:3000/register (registro de usuário)
+- http://localhost:3000/create (criação de NFT)
+- http://localhost:3000/edit (edição de NFT)
+- http://localhost:3000/view (visualização de um único NFT)
+- http://localhost:3000/logout (desconectar da sessão)
+
+Para navegar nas rotas "create" e "edit", é necessário estar autenticado com um usuário.
+
+## Relacionamentos
+
+O diagrama de relacionamentos do projeto está ilustrado abaixo:
 
 <img src="https://github.com/Wando2/nft-market/blob/10eeee4d549d169b1f44a15381d665310eb6e1dd/readme/Relacionamentos.png" />
+
  
- # Screenshots
+ ## Screenshots
  <img src="https://github.com/Wando2/Market-nft/blob/e6f03c8dda8976c0807112de9352ed8921cb06f1/readme/home1.png"/>
  <img src="https://github.com/Wando2/Market-nft/blob/e6f03c8dda8976c0807112de9352ed8921cb06f1/readme/home2.png" />
  <img src="https://github.com/Wando2/Market-nft/blob/597482922e6541fafffc069acadc8c96e64a0f92/readme/dashboard.png" />
