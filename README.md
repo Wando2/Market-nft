@@ -1,5 +1,4 @@
-# Projeto NFT Market
-Progamadores Carioca - Feito por Wando Barros e Lucas Amaro
+
  
  
 # Sobre o Projeto
@@ -38,12 +37,10 @@ Obs : Para navegar na rota create e edit, é necessário estar autenticado com u
 <img src="https://github.com/Wando2/nft-market/blob/10eeee4d549d169b1f44a15381d665310eb6e1dd/readme/Relacionamentos.png" />
  
  # Screenshots
- <img src="https://github.com/Wando2/nft-market/blob/0c5609c283776d7d7afb2bb15f4059a4ab986ec1/readme/home1.png" />
- <img src="https://github.com/Wando2/nft-market/blob/0c5609c283776d7d7afb2bb15f4059a4ab986ec1/readme/home2.png" />
- <img src="https://github.com/Wando2/nft-market/blob/0c5609c283776d7d7afb2bb15f4059a4ab986ec1/readme/create.png" />
- <img src="https://github.com/Wando2/nft-market/blob/0c5609c283776d7d7afb2bb15f4059a4ab986ec1/readme/editar.png" />
- <img src="https://github.com/Wando2/nft-market/blob/0c5609c283776d7d7afb2bb15f4059a4ab986ec1/readme/view.png" />
- <img src="https://github.com/Wando2/nft-market/blob/0c5609c283776d7d7afb2bb15f4059a4ab986ec1/readme/estrutura.png" />
+ <img src="https://github.com/Wando2/Market-nft/blob/e6f03c8dda8976c0807112de9352ed8921cb06f1/readme/home1.png/>
+ <img src="https://github.com/Wando2/Market-nft/blob/e6f03c8dda8976c0807112de9352ed8921cb06f1/readme/home2.png" />
+ <img src="https://github.com/Wando2/Market-nft/blob/e6f03c8dda8976c0807112de9352ed8921cb06f1/readme/publicar.png" />
+ <img src="https://github.com/Wando2/Market-nft/blob/main/readme/Arquitetura.png" />
  
  
  
