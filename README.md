@@ -11,7 +11,7 @@ As dependências necessárias para executar este projeto estão listadas abaixo:
 - Node.js
 - MySQL
 - VS Code (ou outra IDE)
-- Pacotes npm: express, express-session, bcrypt, ejs, sequelize e mysql2
+
 
 ## Como inicializar
 
