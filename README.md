@@ -19,8 +19,8 @@ Siga os passos abaixo para inicializar o projeto:
 
 1. Crie uma base de dados MySQL com o nome "store".
 2. No arquivo `db/db.js`, configure o seu usuário e senha do MySQL na constante Sequelize (padrão: root, '').
-3. No terminal, selecione o diretório do projeto e execute o comando `npm i` para instalar as dependências do projeto.
-4. Em seguida, execute o comando `npm run devStart` para iniciar o servidor.
+3. No terminal da sua IDE, selecione o diretório do projeto e execute o comando `npm i` para instalar as dependências do projeto.
+4. Ainda no terminal, execute o comando `npm run devStart` para iniciar o servidor.
 5. Abra o seu navegador e acesse http://localhost:3000/.
 
 ## Rotas
